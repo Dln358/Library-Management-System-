@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="655.0" styleClass="body" stylesheets="@Style/PaneStyle.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.librarymanagmentsystem.librarymanagmentsystem.EditBoxController">
+   <children>
+      <TextField fx:id="authorEditSceneText" layoutX="140.0" layoutY="34.0" prefHeight="57.0" prefWidth="404.0" stylesheets="@Style/imageStyle.css" />
+      <TextField fx:id="titleEditSceneText" layoutX="141.0" layoutY="105.0" prefHeight="25.0" prefWidth="404.0" stylesheets="@Style/imageStyle.css" />
+      <TextField fx:id="isbnEditSceneText" layoutX="141.0" layoutY="172.0" prefHeight="25.0" prefWidth="404.0" stylesheets="@Style/imageStyle.css" />
+      <TextField fx:id="quantityEditSceneText" layoutX="141.0" layoutY="243.0" prefHeight="25.0" prefWidth="404.0" stylesheets="@Style/imageStyle.css" />
+      <Button fx:id="editSubmit" layoutX="239.0" layoutY="309.0" mnemonicParsing="false" onAction="#handleEditSubmit" prefHeight="25.0" prefWidth="207.0" stylesheets="@Style/imageStyle.css" text="Submit" />
+   </children>
+</AnchorPane>
